@@ -54,6 +54,6 @@ func main() {
         }
     }
     if !found {
-        fmt.Println("Password Not Found")
+        fmt.Printf("Password Not Found with ip:%s\n",*ip)
     }
 }
